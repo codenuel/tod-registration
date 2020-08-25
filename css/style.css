@@ -1,25 +1,25 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(../images/coverg) no-repeat 0px 0px;
+    background: rgba(16, 1, 26, 0.87);
     min-height: 100vh;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
 }
-h1 {
+h3 {
     margin: 0;
     color: #ffffff;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 500;
     letter-spacing: 2px;
     padding: 50px 0;
 }
 
-h2 {
+h4 {
     margin: 0;
-    color: #fc3955;
-    font-size: 25px;
+    color: rgba(16, 1, 26, 0.87);
+    font-size: 18px;
     font-weight: 400;
     text-align: center;
     letter-spacing: 1px;
@@ -33,12 +33,12 @@ p.w3l-register-p {
     margin-top: 2em;
 }
 
-.w3l-login-form {
-    background: rgba(0, 0, 0, 0.4117647058823529);
+.register-form {
+    background: #eee;
     max-width: 500px;
     margin: 0 auto;
     padding: 3em;
-    border-radius: 10px;
+    border-radius: 5px;
     box-sizing: border-box;
 }
 
@@ -49,7 +49,7 @@ p.w3l-register-p {
 }
 
 .group i {
-    color: #fc3955;
+    color: rgba(16, 1, 26, 0.87);
     font-size: 20px;
     padding: 0 10px;
 }
@@ -62,7 +62,7 @@ p.w3l-register-p {
     display: block;
     text-transform: uppercase;
     font-size: 13px;
-    color: #d2d2d2;
+    color: rgba(16, 1, 26, 0.692);
     letter-spacing: 2px;
     margin-bottom: 10px;
     font-style: italic;
@@ -83,7 +83,7 @@ input[type="password"]:focus {
 }
 
 button {
-    background: #fc3955;
+    background: rgba(16, 1, 26, 0.87);
     color: #ffffff;
     font-size: 13px;
     text-transform: uppercase;
@@ -96,7 +96,7 @@ button {
 }
 
 button:hover {
-    background-color: #00BCD4;
+    background-color: rgba(16, 1, 26, 0.185);
     transition-duration: 5s;
 }
 
@@ -152,13 +152,13 @@ select {
 p.copyright-agileinfo {
     font-size: 15px;
     letter-spacing: 2px;
-    color: #fff;
+    color: #ffffff;
     font-weight: 300;
 }
 
 footer p a {
     display: inline-block;
-    color: #fff;
+    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -211,7 +211,7 @@ footer {
 }
 
 @media(max-width:480px) {
-    .w3l-login-form {
+    .register-form {
     margin: 0 3vw;
 }
     h1 {
